@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://chatchat-z7zd.onrender.com//$1",
+      "permanent": false
+    }
+  ],
+  "crons": [
+    {
+      "path": "/api/ping",
+      "schedule": "*/30 * * * *"
+    }
+  ]
+}
